@@ -137,7 +137,7 @@ local status = Instance.new("TextLabel")
 status.Size = UDim2.new(1, 0, 0, 20)
 status.Position = UDim2.new(0, 0, 1, -20)
 status.BackgroundTransparency = 1
-status.Text = "John Doe Executor made by John Doe | Modif by AufarExploit | Status: Ready!"
+status.Text = "John Doe Executor made by John Doe | https://discord.gg/4wGpMHdXYa | Check:Ready"
 status.TextColor3 = Color3.fromRGB(200, 200, 200)
 status.Font = Enum.Font.SourceSans
 status.TextSize = 14
@@ -146,7 +146,7 @@ status.Parent = frame
 
 -- BUTTON ACTIONS
 clearBtn.MouseButton1Click:Connect(function()
-	scriptBox.Text = ""
+	scriptBox.Text = "Later"
 end)
 
 hideBtn.MouseButton1Click:Connect(function()
@@ -202,4 +202,5 @@ toggleButton.MouseButton1Click:Connect(function()
 		wait(0.26)
 		frame.Visible = false
 	end
+
 end)
